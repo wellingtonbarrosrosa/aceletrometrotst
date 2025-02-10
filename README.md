@@ -40,7 +40,7 @@ Agradecimentos
 Agradeço aos professores Fábio Miranda e Mauro de Mendonça Costa pelo apoio e orientação durante o desenvolvimento deste projeto.
 
 Contato
-Para mais informações, consulte o repositório do projeto no GitHub https://github.com/darkkouta/acelerometrotst ou entre em contato.
+Para mais informações, consulte o repositório do projeto no GitHub [https://github.com/darkkouta/acelerometrotst](https://github.com/wellingtonbarrosrosa/aceletrometrotst/) ou entre em contato.
 
 Sinta-se à vontade para modificar qualquer parte ou adicionar informações adicionais!
 
