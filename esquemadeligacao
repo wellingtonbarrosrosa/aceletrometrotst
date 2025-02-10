@@ -1,0 +1,53 @@
+O projeto de monitoramento e cálculo de vibração utilizando o acelerômetro MPU6050 é ideal para quem deseja medir aceleração e calcular métricas relacionadas à exposição à vibração. Segue abaixo o esquema de ligação do projeto:
+
+Componentes necessários:
+ESP32 Doit Devkit ESP32-WROOM-32
+ADXL345 Acelerometro
+Jumpers
+Fonte de alimentação (ou via USB)
+Esquema de ligação:
+Alimentação:
+
+Conecte o VCC do ADXL345 ao pino 3.3V do ESP32.
+Conecte o GND do ADXL345 ao GND do ESP32.
+Comunicação I2C:
+
+Conecte o pino SCL do ADXL345 ao pino 22 do ESP32.
+Conecte o pino SDA do ADXL345 ao pino 21 do ESP32.
+Resumo de conexão:
+MPU6050	ESP32
+VCC	3.3V
+GND	GND
+SCL	GPIO 22
+SDA	GPIO 21
+Funcionamento:
+O acelerômetro MPU6050 envia os dados de aceleração ao ESP32 via comunicação I2C. Esses dados são processados para calcular a Aceleração Resultante de Exposição (ARE), a Aceleração Normalizada de Exposição (AREN) e o fator Dy, utilizado para determinar os riscos de saúde relacionados à exposição prolongada a vibrações.
+
+Monitoramento via Web:
+O sistema também oferece uma interface web para visualizar as leituras de aceleração em tempo real e ajustar os parâmetros, como os offsets de cada eixo e o tempo de exposição.O projeto de monitoramento e cálculo de vibração utilizando o acelerômetro MPU6050 é ideal para quem deseja medir aceleração e calcular métricas relacionadas à exposição à vibração. Segue abaixo o esquema de ligação do projeto:
+
+Componentes necessários:
+ESP32 Doit Devkit ESP32-WROOM-32
+ADXL345 Acelerômetro
+Jumpers
+Fonte de alimentação (ou via USB)
+Esquema de ligação:
+Alimentação:
+
+Conecte o VCC do ADXL345 ao pino 3.3V do ESP32.
+Conecte o GND do ADXL345 ao GND do ESP32.
+Comunicação I2C:
+
+Conecte o pino SCL do ADXL345 ao pino 22 do ESP32.
+Conecte o pino SDA do ADXL345 ao pino 21 do ESP32.
+Resumo de conexão:
+ADXL345	ESP32
+VCC	3.3V
+GND	GND
+SCL	GPIO 22
+SDA	GPIO 21
+Funcionamento:
+O acelerômetro MPU6050 envia os dados de aceleração ao ESP32 via comunicação I2C. Esses dados são processados para calcular a Aceleração Resultante de Exposição (ARE), a Aceleração Normalizada de Exposição (AREN) e o fator Dy, utilizado para determinar os riscos de saúde relacionados à exposição prolongada a vibrações.
+
+Monitoramento via Web:
+O sistema também oferece uma interface web para visualizar as leituras de aceleração em tempo real e ajustar os parâmetros, como os offsets de cada eixo e o tempo de exposição.
